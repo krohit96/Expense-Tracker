@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    text-align: center;
+}
+
+a {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    text-decoration: none;
+    color: black;
+    background-color: #f4f4f4;
+}
+
+a:hover {
+    background-color: #ddd;
+}
+
+/* Adjust form input styling */
+input, button, textarea, select {
+    border: 1px solid #333; /* or any desired border color */
+    margin-bottom: 10px; /* to give some spacing between form elements */
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+}
+
+thead {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #f5f5f5;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+.flashes {
+    list-style-type: none;
+    padding: 0;
+}
+
+.flashes li {
+    margin: 5px 0;
+    padding: 5px 10px;
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+}
+
+
