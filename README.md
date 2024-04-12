@@ -60,4 +60,9 @@ Before you begin, ensure you have the following installed:
    ```bash
    flask run
 
+### Usage
+After starting the application, visit http://127.0.0.1:5000/ in your web browser to access the Expense Tracker Application.
+- Register for a new account or login.
+- Use the navigation links to add, view, edit, or delete expenses.
+- Visit the reports section to view your monthly expense summary.
 
