@@ -34,3 +34,30 @@ Before you begin, ensure you have the following installed:
 1. Clone the repository:
    ```bash
    git clone <repository-url>
+2. Navigate to the project directory:
+   ```bash
+   cd expense-tracker
+3. Create a virtual environment (optional but recommended):
+   ```bash
+   python -m venv venv
+4. Activate the virtual environment:
+   ```bash
+   .\venv\Scripts\activate
+5. Install the required dependencies:
+   ```bash
+   pip install -r requirements.txt
+6. Set up the database:
+   - Make sure PostgreSQL is installed and running.
+   - Create a new database for the application.
+   - Modify the SQLALCHEMY_DATABASE_URI in your application to reflect your PostgreSQL settings.
+7. Initialize the database:
+   ```bash
+   flask shell
+   from your application import db
+   db.create_all()
+   exit()
+8. Start the application:
+   ```bash
+   flask run
+
+
